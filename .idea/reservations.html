@@ -1,0 +1,46 @@
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href = "yogastyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h2>reservations at pacific trails resort</h2>
+        <h3>contact us today!</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/andre/OneDrive/Desktop/pacific%20trails/lab1.html">Home</a> </li> <li><a href="file:///C:/Users/andre/OneDrive/Desktop/yurts.html">Yurts</a> &nbsp;</li>  <li><a href="file:///C:/Users/andre/OneDrive/Desktop/pacific%20trails/activities.html">Activities</a><li> &nbsp;<li><a>Reservations</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <p>Required fields are marked by an asterisk</p>
+<form method="post" action="pacific.php">
+    <label for="myFname">* first name</label>
+    <input type ="text" name ="myFname" id ="myFname" required></input>
+    <label for="Lastname">* last name</label>
+    <input type ="text" name ="Lastname" id ="Lastname" required></input>
+    <label for="email"> * email </label>
+    <input type ="text" name ="email" id ="email" size="35" maxlength="12" required></input>
+    <label for="phone"> * phone number</label>
+    <input type ="tel" name ="phone" id ="phone"></input>
+    <label for="comments">Comments</label>
+    <textarea name="comments" id="comments" rows="2" cols="30" required></textarea>
+    <label for="date">Arrival Date</label>
+    <input type="date" name="date" id="date">
+    <label for="nights">Nights</label>
+    <input type="number" min="1" max="14" name="nights" id="nights">
+    <label for="sumbit">send now</label>
+    <input type ="submit" value="sumbit" id="sumbit">
+</form>
+    </main>
+
+    <footer class ="footerClass"><p><small>copyright 2019 andre's website company</small></p>
+    </footer>
+</div>
+</body>
+</html>
